@@ -40,6 +40,6 @@
 #### Question 2: Do profitable movies tend to have higher or lower budgets than unprofitable movies?
 * A two-tailed two-sample t-test yields statistically significant results at the 95% significance level (p-value < 0.025). On average profitable films have higher budgets than unprofitable films
 * A Welch's test confirms the results found in the two-tailed two-sample t-test
-[](Figures/log_film_budget_boxplot.png)
+![](Figures/log_film_budget_boxplot.png)
 #### Question 3: Does film budget impact level of critical acclaim?
 
