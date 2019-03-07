@@ -42,4 +42,11 @@
 * A Welch's test confirms the results found in the two-tailed two-sample t-test
 ![](Figures/log_film_budget_boxplot.png)
 #### Question 3: Does film budget impact level of critical acclaim?
+* A single variable regression shows that film budget is positively correlated with level of critical acclaim. This means that films with larger budgets tend to have more critical acclaim
+![](Figures/regression_analysis_logcriticalacclaim_logbudget.png)
+## Analysis Weaknesses and Opportunities for Further Research
+* The initial dataset is created from a list of film IDs from an existing [Kaggle dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata). It is unclear how this list of IDs in the Kaggle dataset was initially gathered so it may not be a random sample
+* The analysis studies the difference between films with positive profit versus films with 0 or negative profit. This could be misleading because films with close to 0 profit are included in both groups.
+* The analysis covers films with a broad range of budgets ($100K and up). It could be interesting to explore differences in budget ranges because a film with a $100K budget is likely very different than a film with a $300M budget
+* The single variable regression only explains about 25% of the variation in the dependent variable (log critical acclaim). It could be that adding more variables to the model would help it yield more significant results
 
