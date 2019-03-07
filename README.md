@@ -15,7 +15,7 @@
 * The [analysis.ipynb](https://github.com/mileslucey/movies_success_analysis/blob/master/analysis.ipynb) file is a Jupyter Notebook file that analyzes the data
 * All PNG files in the [Figures folder](https://github.com/mileslucey/movies_success_analysis/tree/master/Figures) are images of the graphs that the [analysis.ipynb](https://github.com/mileslucey/movies_success_analysis/blob/master/analysis.ipynb) file generates
 * All CSV files in the [Output folder](https://github.com/mileslucey/movies_success_analysis/tree/master/Output) are the datasets that the [data_cleanup.ipynb](https://github.com/mileslucey/movies_success_analysis/blob/master/data_cleanup.ipynb) file generates
-## [Data Extraction and Cleaning](https://github.com/mileslucey/movies_success_analysis/blob/master/data_cleanup.ipynb)
+## Data Extraction and Cleaning
 * A list of film IDs found on [Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata) is used to pull fresh data from [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction)
 * Data is cleaned in the following ways:
    * Date columns are converted to datetime format
@@ -32,7 +32,7 @@
 * Several metrics used in the analysis are right-skewed. In order to ensure that distributions approximate normality and to minimize variances between the studied groups, the following metrics are transformed to a log scale:
    * Budget
    * Critical acclaim
-## [Analysis](https://github.com/mileslucey/movies_success_analysis/blob/master/analysis.ipynb)
+## Analysis
 #### Question 1: Do profitable movies tend to have higher or lower average review scores (on a scale of 1 to 10) than unprofitable movies?
 * A two-tailed two-sample t-test yields statistically significant results at a 95% level of significance (p-value < 0.025). On average, profitable films have higher ratings than unprofitable films
 * A Welch's test confirms the results found in the two-tailed two-sample t-test
