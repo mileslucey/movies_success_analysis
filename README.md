@@ -10,11 +10,11 @@
 2. Run the "data_cleanup.ipynb" file to pull data from the API, clean the data, and export the cleaned data into a new CSV file
 3. Run the "analysis.ipynb" to reproduce the analysis
 #### Files
-* The "api_keys.py" file is a Python file that contains the API key used in the analysis. The current API key must be replaced in order for the analysis to run
-* The "data_cleanup.ipynb" file is a Jupyter Notebook file that pulls in data from the API, cleans the data, and exports the data into a new CSV file
-* The "Analysis.ipynb" file is a Jupyter Notebook file that analyzes the data
-* All PNG files in the "Figures" folder are images of the graphs that the "Analysis.ipynb" file generates
-* All CSV files in the "Output" folder are the datasets that the "data_cleanup.ipynb" file generates
+* The [api_keys.py](https://github.com/mileslucey/movies_success_analysis/blob/master/api_keys.py) file is a Python file that contains the API key used in the analysis. The current API key must be replaced in order for the analysis to run
+* The [data_cleanup.ipynb](https://github.com/mileslucey/movies_success_analysis/blob/master/data_cleanup.ipynb) file is a Jupyter Notebook file that pulls in data from the API, cleans the data, and exports the data into a new CSV file
+* The [Analysis.ipynb](https://github.com/mileslucey/movies_success_analysis/blob/master/analysis.ipynb) file is a Jupyter Notebook file that analyzes the data
+* All PNG files in the [Figures folder](https://github.com/mileslucey/movies_success_analysis/tree/master/Figures) are images of the graphs that the "Analysis.ipynb" file generates
+* All CSV files in the [Output folder](https://github.com/mileslucey/movies_success_analysis/tree/master/Output) are the datasets that the "data_cleanup.ipynb" file generates
 ## [Data Extraction and Cleaning](https://github.com/mileslucey/movies_success_analysis/blob/master/data_cleanup.ipynb)
 * A list of film IDs found on [Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata) is used to pull fresh data from [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction)
 * Data is cleaned in the following ways:
@@ -32,4 +32,5 @@
 * Several metrics used in the analysis are right-skewed. In order to ensure that distributions approximate normality and to minimize variances between the studied groups, the following metrics are transformed into a log scale:
    * Budget
    * Critical acclaim
+## [Analysis](https://github.com/mileslucey/movies_success_analysis/blob/master/analysis.ipynb)
 
