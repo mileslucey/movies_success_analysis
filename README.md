@@ -24,4 +24,8 @@
    * Films with budgets less than $100,000 are either very old or are not films that many people commonly see and are thus too different from films in the rest of the dataset. Therefore, films with budgets less than $100,000 are removed
    * All films that have 0 reviews are removed from the analysis
    * Films released before the internet age generally have much fewer reviews than films released during the internet age. To prevent there from being inherent bias against older films, only movies released after 2005 are included in this analysis
+### Calculate Metrics
+* A film's "profit" is calculated as: "revenue" - "budget"
+   * "Profitable" films are films with "profit" greater than $0 and "not profitable" films are films with "profit" less than or equal to $0
+* A film's "critical acclaim" is calculated as: ("average film rating score" * "quantity of reviews") / ("days since film's release")
 
