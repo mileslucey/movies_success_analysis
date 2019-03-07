@@ -9,4 +9,10 @@
 1. Enter [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction) key into the "api_keys.py" file
 2. Run the "data_cleanup.ipynb" file to pull data from the API, clean the data, and expore the cleaned data into a new CSV file
 3. Run the "analysis.ipynb" to reproduce the analysis
+### Files
+* The "api_keys.py" file is a Python file that contains the API key used in the analysis. The current API key must be replaced in order for the analysis to run
+* The "data_cleanup.ipynb" file is a Jupyter Notebook file that pulls in data from the API, cleans the data, and exports the data into a new CSV file
+* The "Analysis.ipynb" file is a Jupyter Notebook file that analyzes the data
+* All PNG files in the "Figures" folder are images of the graphs generated from the "Analysis.ipynb" file
+* Two CSV files in the "Output" folder are the datasets generated from the "data_cleanup.ipynb" file
 
