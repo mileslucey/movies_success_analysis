@@ -15,7 +15,7 @@
 * The "Analysis.ipynb" file is a Jupyter Notebook file that analyzes the data
 * All PNG files in the "Figures" folder are images of the graphs that the "Analysis.ipynb" file generates
 * All CSV files in the "Output" folder are the datasets that the "data_cleanup.ipynb" file generates
-## Data Extraction and Cleaning
+## [Data Extraction and Cleaning](https://github.com/mileslucey/movies_success_analysis/blob/master/data_cleanup.ipynb)
 * A list of film IDs found on [Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata) is used to pull fresh data from [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction)
 * Data is cleaned in the following ways:
    * Date columns are converted to datetime format
