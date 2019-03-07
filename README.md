@@ -1,6 +1,6 @@
 # Film Success Analysis
 ## Summary
-* The project brings in data from [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction), cleans the data, and analyzes the factors that make films successful
+* The project brings in data from [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction), cleans the data, and analyzes some of the factors that make films successful
 * The following conclusions can be drawn from the analysis:
     * On average, profitable films have higher ratings than unprofitable films
     * On average, profitable films have higher budgets than unprofitable films
