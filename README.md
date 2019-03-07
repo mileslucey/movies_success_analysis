@@ -34,6 +34,7 @@
    * Critical acclaim
 ## [Analysis](https://github.com/mileslucey/movies_success_analysis/blob/master/analysis.ipynb)
 #### Question 1: Do profitable movies tend to have higher or lower average review scores (on a scale of 1 to 10) than unprofitable movies?
+* 
 #### Question 2: Do profitable movies tend to have higher or lower budgets than unprofitable movies?
 #### Question 3: Does film budget impact level of critical acclaim?
 
