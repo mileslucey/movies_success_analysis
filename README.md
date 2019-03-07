@@ -29,7 +29,7 @@
    * "Profitable" films are films with "profit" greater than $0 and "not profitable" films are films with "profit" less than or equal to $0
 * A film's "critical acclaim" is calculated as: ("average film rating score" * "quantity of reviews") / ("days since film's release")
 #### Logarithmic Transformations
-* Several metrics used in the analysis are right-skewed. In order to ensure that distributions approximate normality and to minimize variances between the studied groups, the following metrics are transformed into a log scale:
+* Several metrics used in the analysis are right-skewed. In order to ensure that distributions approximate normality and to minimize variances between the studied groups, the following metrics are transformed to a log scale:
    * Budget
    * Critical acclaim
 ## [Analysis](https://github.com/mileslucey/movies_success_analysis/blob/master/analysis.ipynb)
