@@ -46,7 +46,7 @@
 
 ![](Figures/regression_analysis_logcriticalacclaim_logbudget.png)
 ## Analysis Weaknesses and Opportunities for Further Research
-* The initial dataset is created from a list of film IDs from an existing [Kaggle dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata). It is unclear how this list of IDs in the Kaggle dataset was initially gathered so it may not be a random sample
+* The initial dataset is created from [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction) using a list of film IDs from a [Kaggle dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata). It is unclear how this list of IDs in the Kaggle dataset was initially gathered so it may not be a random sample
 * The analysis studies the difference between films with positive profit versus films with zero or negative profit. This could be misleading because films with close to zero profit are included in both the "profitable" and "not profitable" groups
 * The analysis covers films with a broad range of budgets ($100K and up). It could be interesting to explore differences in budget ranges because a film with a $100K budget is likely very different than a film with a $300M budget
 * The single variable regression only explains about 25% of the variation in the dependent variable (log critical acclaim). Adding more variables to the model could improve its explanatory power
